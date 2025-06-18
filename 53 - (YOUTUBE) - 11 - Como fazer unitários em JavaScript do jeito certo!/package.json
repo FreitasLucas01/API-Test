@@ -1,0 +1,16 @@
+{
+  "name": "exemplo",
+  "version": "1.0.0",
+  "description": "Testando API",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch services/server.js",
+    "test": "jest --coverage"
+  },
+  "author": "Lucas Freitas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "jest": "^30.0.0"
+  }
+}
